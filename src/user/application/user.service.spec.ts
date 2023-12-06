@@ -5,7 +5,7 @@ import { UserSignUpOut } from '../interface/user.out';
 import { UserSignUpIn } from '../interface/user.in';
 
 class UserRepositoryMocking implements IUserRepository {
-  findOneOrNullByEmail(userId: User['email']): Promise<User | null> {
+  findOneOrNullByEmail(email: User['email']): Promise<User | null> {
     return Promise.resolve(null);
   }
 

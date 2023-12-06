@@ -1,5 +1,5 @@
 export class UserSignUpDto {
-  readonly userId: string
+  readonly userId: string;
 
-  readonly email: string
+  readonly email: string;
 }

@@ -13,6 +13,6 @@ export class UserController {
       userId,
       email,
     });
-    return signUpDto;
+    return true;
   }
 }
